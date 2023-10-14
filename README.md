@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Koiratarha2.0_Client
-=======
 # Web2-project Koiratarha 2.0
 
 Koiratarha 2.0 is a school project for Metropolia UAS Web-development 2 course.
@@ -9,16 +6,12 @@ Koiratarha 2.0 is a web application that uses the MyHelsinki Open API to show va
 
 The app uses a GraphQL API server, REST API server and a NoSQL database.
 
-
-
 # Get started:
 
 - Clone this repo
 - Clone the REST API server: https://github.com/MinaSofi/Koiratarha2.0_Auth
 - Set up .env file for both based on .env.sample
-    - Remember to use different ports
-    - Recommended to use MongoDB
+  - Remember to use different ports
+  - Recommended to use MongoDB
 - run `npm i` on both
 - run `npm run dev` on both
-
->>>>>>> 3511979 (clientin alku)
