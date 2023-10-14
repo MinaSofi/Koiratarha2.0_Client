@@ -2,10 +2,10 @@
   "name": "express-api-starter-ts",
   "version": "1.2.0",
   "description": " A basic starter for an express.js API with Typescript. Ilkka added gts",
-  "main": "src/index.ts",
+  "main": "src/main.ts",
   "scripts": {
-    "start": "node dist/src/index.js",
-    "dev": "nodemon src/index.ts",
+    "start": "node dist/src/main.js",
+    "dev": "nodemon src/main.ts",
     "build": "tsc",
     "copygql": "copyfiles -E -u 1 src/api/schemas/*.graphql dist/src",
     "postbuild": "npm run copygql",
@@ -16,7 +16,7 @@
   "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MinaSofi/Koiratarha2.0.git"
+    "url": "https://github.com/MinaSofi/Koiratarha2.0_Client.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -45,6 +45,7 @@
     "randomstring": "^1.2.3"
   },
   "devDependencies": {
+    "@types/bootstrap": "^5.2.7",
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.15",
     "@types/geojson": "^7946.0.11",

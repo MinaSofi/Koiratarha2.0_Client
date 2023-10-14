@@ -4,6 +4,7 @@
     "sourceMap": true,
     "target": "esnext",
     "module": "ESNext",
+    "types": ["leaflet"],
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": true,
