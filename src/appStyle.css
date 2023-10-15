@@ -100,6 +100,12 @@ button {
     font-family: inherit;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #loginButton {
     background: #B7B7A4;
     color: black;
